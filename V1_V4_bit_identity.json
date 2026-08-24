@@ -1,0 +1,22 @@
+{
+ "comparison": [
+  {
+   "ID": "V1",
+   "bit_identical": true
+  },
+  {
+   "ID": "V2",
+   "bit_identical": true
+  },
+  {
+   "ID": "V3",
+   "bit_identical": true
+  },
+  {
+   "ID": "V4",
+   "bit_identical": true
+  }
+ ],
+ "all_bit_identical": true,
+ "note": "v1.1 V5 row preserved as permanent record (not re-run); V5-prime executed separately"
+}

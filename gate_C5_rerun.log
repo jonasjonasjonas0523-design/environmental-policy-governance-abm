@@ -1,0 +1,23 @@
+[diag] independent tau* re-solve = 0.093392; frozen = 0.09326697147369385; |diff| = 1.25e-04 (<= 5e-4 required)
+[const] fS = 0.1865339429473877; Ann(0.9025,8) = 5.742291; Ann(0.9025,9) = 6.182417
+[diag] threat-ignition p (theta ceiling 0.6900, max Ann 5.7423): p >= 0.2797
+screen p=0.35: EVER_all=0.6085 EVER_top=0.5895 admissible=False
+screen p=0.34: EVER_all=0.5864 EVER_top=0.5921 admissible=False
+screen p=0.36: EVER_all=0.6291 EVER_top=0.5908 admissible=False
+screen p=0.33: EVER_all=0.5657 EVER_top=0.6132 admissible=False
+screen p=0.37: EVER_all=0.6490 EVER_top=0.5996 admissible=False
+screen p=0.32: EVER_all=0.5403 EVER_top=0.6012 admissible=False
+screen p=0.38: EVER_all=0.6676 EVER_top=0.5943 admissible=False
+screen p=0.31: EVER_all=0.5136 EVER_top=0.6167 admissible=False
+screen p=0.39: EVER_all=0.6855 EVER_top=0.5719 admissible=False
+screen p=0.30: EVER_all=0.3680 EVER_top=0.8385 admissible=False
+screen p=0.40: EVER_all=0.6939 EVER_top=0.5709 admissible=False
+screen p=0.29: EVER_all=0.1577 EVER_top=0.6496 admissible=True
+CONFIRM 400k p=0.29: nu0=0.2460 eta=1.9520 EVER_all=0.1611 EVER_top=0.6330 admissible=True
+ADOPTED: p_US=0.29 nu_0=0.2460 eta=1.9520 EVER_all=0.1611 EVER_top=0.6330
+path t=1..10: [0.033, 0.161, 0.058, 0.051, 0.045, 0.04, 0.037, 0.035, 0.033, 0.032]
+nu_i: median=0.093 p90=1.127 p99=8.509 share>1=0.1111
+[unc decile] TIER=0.10 at p=0.29: nu0=0.2920 eta=2.0000 EVER_all=0.1549 EVER_top10=0.6331 (bound solution if eta=2.0)
+[unc] corner p=0.20: nu0=2.2220 eta=0.5700 EVER_all=0.1521 EVER_top=0.6419 median_nu=1.674
+[unc] corner p=0.50: nu0=0.0720 eta=1.8240 EVER_all=0.8083 EVER_top=0.5527 median_nu=0.029
+[V5p audit] P(0.75*nu_i >= 1) = 0.0855  (static quantile only; no Dutch dynamics computed)

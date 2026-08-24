@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper below."
+title: "Governance-Conditioned Environmental Policy Instruments (v1.2) - reproducibility repository"
+authors:
+  - family-names: Xu
+    given-names: Jonas
+    orcid: "https://orcid.org/0009-0006-2689-4016"
+version: v1.2
+date-released: 2026-08-24
+preferred-citation:
+  type: article
+  title: "Agent-Based Simulation Analysis of Regulatory, Price-Based, and Voluntary Environmental Policy Instruments Under Heterogeneous Governance Conditions"
+  authors:
+    - family-names: Xu
+      given-names: Jonas
+  journal: "IEEE Access"
+  year: 2026
+  notes: "Submitted; DOI to be added at acceptance."

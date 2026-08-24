@@ -1,0 +1,34 @@
+{
+ "scored_verdict": "PASS",
+ "central": {
+  "delta": 0.11809392128212289,
+  "lo": 0.11505007655180258,
+  "hi": 0.1211377660124432
+ },
+ "band_family": "per-condition bootstrap max-t; scored family = central only (one-member simultaneous band); variants reported with own bands",
+ "crit_central": 1.9674570731883814,
+ "crit_by_condition": {
+  "central": 1.9674570731883814,
+  "p_lo": 1.964898605784823,
+  "p_hi": 1.9774122858669718,
+  "c_lo": 1.9680496190363947,
+  "c_hi": 1.9396420556588418,
+  "k_lo": 1.9593277670014109,
+  "k_hi": 1.9773172579799219,
+  "h_lo": 1.9766546250174193,
+  "h_hi": 2.0093241745594814
+ },
+ "B": 2000,
+ "seeds": "90000..90152",
+ "n": 153,
+ "sign_flips": [],
+ "unscored_feasibility": {
+  "A_V_central": 237.97001524415268,
+  "quantile_frozen": 0.0855,
+  "quantile_realized": 0.08813725490196078
+ },
+ "theta_ablation_diagnostic": {
+  "A_V": 237.97001524415268,
+  "A_V_theta0": 149.4402613293038
+ }
+}

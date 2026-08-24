@@ -1,0 +1,46 @@
+{
+ "a_inspection": {
+  "frozen_tau_import": true,
+  "resolve_for_use": false,
+  "ever_statistic": true,
+  "dutch_quantities": "single static quantile P(0.75*nu_i>=1) only; no dynamics, no archetype eval",
+  "status": "PASS"
+ },
+ "b_reproduction": {
+  "rung_verdicts": "0.30-0.40 inadmissible, 0.29 admissible (matches frozen record)",
+  "adopted": {
+   "nu0": 0.246,
+   "eta": 1.952,
+   "EVER_all": 0.1611,
+   "EVER_top": 0.633
+  },
+  "path": [
+   0.033,
+   0.161,
+   0.058,
+   0.051,
+   0.045,
+   0.04,
+   0.037,
+   0.035,
+   0.033,
+   0.032
+  ],
+  "nu_diag": {
+   "median": 0.093,
+   "p90": 1.127,
+   "p99": 8.509,
+   "share_gt1": 0.1111
+  },
+  "decile": {
+   "nu0": 0.292,
+   "eta": 2.0,
+   "EVER_all": 0.1549,
+   "EVER_top10": 0.6331
+  },
+  "quantile": 0.0855,
+  "indep_tau_diff": 0.000125,
+  "status": "PASS"
+ },
+ "status": "PASS"
+}

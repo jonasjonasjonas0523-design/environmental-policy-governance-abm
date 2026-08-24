@@ -1,0 +1,10 @@
+{
+ "tau_star": 0.09326697147369385,
+ "quad_seed": 424242,
+ "n_quad": 1000000,
+ "independent_check_F": -0.0002092024870418152,
+ "independent_check_5se": 0.0010107469430209407,
+ "analytic_floor": 0.07357588823428847,
+ "cap_correction_pct": 26.76295687617507,
+ "criterion": "A2: |F_indep(tau*)| < 5*SE_indep; tau* > 0.2/e floor"
+}

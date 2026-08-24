@@ -1,0 +1,5 @@
+ID,criterion,result,status,classification
+V1,band(dA)>0 AND band(dviol)<0,"dA=57.9 [56.6,59.2]; dviol=-0.164 [-0.169,-0.159]",PASS,
+V2,"effect in [10,40] pct per inspection; Z reported","10.0 pct [9.9,10.2]; Z pending AUTHOR ACTION (empirical coeff+SE from ref [35] tables); sim SE=0.09",PASS,
+V3,band(A_eng-A_dis)>0; A_dis<0.25 A*_cum,"diff=80.2 [79.3,81.2]; A_dis=21.9 (<100: True)",PASS,
+V4,A>=0.80 A*_cum AND under-reporting<5 pct,"A=358.4 [354.8,362.1] (>=320); under=0.00 pct",PASS,
