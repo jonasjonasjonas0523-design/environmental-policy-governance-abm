@@ -1,0 +1,63 @@
+{
+ "tol": 0.00625,
+ "S-T|A": {
+  "max_crossing_shift": 0.0012500000000000011,
+  "matched": 43,
+  "mismatched": 0,
+  "within_tol": true,
+  "shared_sign_agreement": 1.0,
+  "sign_contradictions": 0,
+  "supported_41": 1565,
+  "supported_81": 1565
+ },
+ "S-T|C_social": {
+  "max_crossing_shift": 0.73375,
+  "matched": 51,
+  "mismatched": 0,
+  "within_tol": false,
+  "shared_sign_agreement": 1.0,
+  "sign_contradictions": 0,
+  "supported_41": 1459,
+  "supported_81": 1459
+ },
+ "S-V|A": {
+  "max_crossing_shift": 0.0012499999999999734,
+  "matched": 43,
+  "mismatched": 3,
+  "within_tol": true,
+  "shared_sign_agreement": 1.0,
+  "sign_contradictions": 0,
+  "supported_41": 1481,
+  "supported_81": 1481
+ },
+ "S-V|C_social": {
+  "max_crossing_shift": 0.0037500000000000007,
+  "matched": 41,
+  "mismatched": 0,
+  "within_tol": true,
+  "shared_sign_agreement": 1.0,
+  "sign_contradictions": 0,
+  "supported_41": 1681,
+  "supported_81": 1681
+ },
+ "T-V|A": {
+  "max_crossing_shift": 0.0012500000000000289,
+  "matched": 49,
+  "mismatched": 0,
+  "within_tol": true,
+  "shared_sign_agreement": 1.0,
+  "sign_contradictions": 0,
+  "supported_41": 1536,
+  "supported_81": 1536
+ },
+ "T-V|C_social": {
+  "max_crossing_shift": 0.0037500000000000007,
+  "matched": 41,
+  "mismatched": 0,
+  "within_tol": true,
+  "shared_sign_agreement": 1.0,
+  "sign_contradictions": 0,
+  "supported_41": 1681,
+  "supported_81": 1681
+ }
+}

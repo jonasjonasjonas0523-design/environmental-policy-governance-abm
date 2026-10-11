@@ -1,0 +1,92 @@
+{
+ "tau_ref": 0.2664767157554626,
+ "ratio": 2.857139151673033,
+ "anchoring_frozen": "full integrity p=c=1,k=0, truthful (quad seed 424242, n=1e6)",
+ "anchoring_alt": "reference governance (c,k)=(0.5,0.30), truthful at the p=0.5 indifference point",
+ "f_T_rule": "m_T x tau_ref (reporting threshold preserved at 0.5)",
+ "f_S": "unchanged 2 x tau* (S and V arms untouched)",
+ "baseline": {
+  "tag": "baseline_reference",
+  "crit_A": 3.1100631643975682,
+  "crit_C": 3.4758006275905515,
+  "labels": {
+   "unresolved": 121,
+   "S_dom": 0,
+   "T_dom": 192,
+   "V_dom": 0,
+   "mixed": 1368
+  },
+  "A_leader_anchored": {
+   "S": 0.0,
+   "T": 0.5467775467775468,
+   "V": 0.2681912681912682
+  },
+  "C_leader_anchored": {
+   "S": 0.7796257796257796,
+   "T": 0.08108108108108109,
+   "V": 0.0
+  },
+  "supported_cells": {
+   "S-T|A": 1542,
+   "S-T|C_social": 1418,
+   "S-V|A": 1391,
+   "S-V|C_social": 1640,
+   "T-V|A": 1477,
+   "T-V|C_social": 1640
+  },
+  "mean_A_ref_cell": {
+   "S": 118.20055219039861,
+   "T": 164.44093816643775,
+   "V": 119.9491162577641
+  }
+ },
+ "variant": {
+  "tag": "tau_ref_anchored",
+  "crit_A": 2.9344228030802517,
+  "crit_C": 3.2234359971422415,
+  "labels": {
+   "unresolved": 103,
+   "S_dom": 0,
+   "T_dom": 0,
+   "V_dom": 0,
+   "mixed": 1578
+  },
+  "A_leader_anchored": {
+   "S": 0.0,
+   "T": 0.9397089397089398,
+   "V": 0.02286902286902287
+  },
+  "C_leader_anchored": {
+   "S": 1.0,
+   "T": 0.0,
+   "V": 0.0
+  },
+  "supported_cells": {
+   "S-T|A": 1600,
+   "S-T|C_social": 1597,
+   "S-V|A": 1404,
+   "S-V|C_social": 1640,
+   "T-V|A": 1587,
+   "T-V|C_social": 1640
+  },
+  "mean_A_ref_cell": {
+   "S": 118.20055219039861,
+   "T": 396.82977050407004,
+   "V": 119.9491162577641
+  }
+ },
+ "sign_agreement": 0.8285742613523697,
+ "T_delivery_ref_cell": {
+  "baseline": 164.44093816643775,
+  "variant": 396.82977050407004,
+  "ambition": 400.0
+ },
+ "anchored_A_leader_T": {
+  "baseline": 0.5467775467775468,
+  "variant": 0.9397089397089398
+ },
+ "anchored_C_leader_S": {
+  "baseline": 0.7796257796257796,
+  "variant": 1.0
+ }
+}

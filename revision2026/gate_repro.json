@@ -1,0 +1,17 @@
+{
+ "A_tau_star": {
+  "resolved": 0.09326697147369385,
+  "frozen": 0.09326697147369385,
+  "exact": true,
+  "secs": 0.1
+ },
+ "D_staged_bands": {
+  "exact": false,
+  "max_abs_diff": 1.4210854715202004e-14,
+  "crit_A": 3.1100631643975682,
+  "crit_C": 3.4758006275905515,
+  "labels_match": true,
+  "frozen_critA": 3.1101,
+  "frozen_critC": 3.4758
+ }
+}
